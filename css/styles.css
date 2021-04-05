@@ -1,0 +1,366 @@
+
+body {
+
+  font-family: 'Damion', cursive;
+  text-align: center;
+}
+
+h1, h2, h3,h4, h5, h6 {
+    font-family: 'Damion', cursive;
+      line-height: 200%;
+}
+
+
+
+
+p {
+    font-family: 'Damion', cursive;
+    color: #fff;
+    line-height: 200%;
+    font-size: 1.3rem;
+    word-spacing: 5px;
+    padding-top: 10%;
+    }
+
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Damion', cursive;
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+/*images position*/
+.girlwithheart
+{
+ border-radius: 120%;
+  margin: 10px;
+}
+
+
+/* Containers */
+.story
+{
+    line-height: 1;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #000000;
+  color: #fff;
+}
+
+
+
+
+
+/* Navigation Bar */
+.navbar-nav>li>a {
+ color : #fff;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+
+}
+
+.navbar-brand {
+  font-family: "Montserrat-Light";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+
+
+
+/* Title Section */
+
+#title,#about{
+  background-color:#000000;
+  color: #fff;
+  text-align:left;
+}
+
+#title .container-fluid {
+  padding: 3% 15%;
+}
+
+
+/*aboutmyself*/
+
+
+.mypic
+{
+border-radius: 80%;
+margin: 20px;
+
+}
+.mypic1
+{
+border-radius: 80%;
+margin: 20px;
+
+}
+.mypic2
+{
+border-radius: 80%;
+margin: 20px;
+
+}
+.mypic3
+{
+border-radius: 80%;
+margin: 20px;
+
+}
+.mypic4
+{
+border-radius: 80%;
+margin: 20px;
+
+}
+
+
+
+.para1
+{
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+
+.girltired
+{
+  border-radius: 20px;
+  width: 290px;
+  height: 250px;
+  padding-left: 20px;
+}
+
+/*thoughts */
+.img-with-text {
+    text-align: justify;
+}
+
+
+
+
+/* Testimonial Section */
+
+#works{
+  background-color: #000000;
+}
+
+.testimonial-text {
+  font-size: 8rem;
+
+}
+
+.testimonial-image {
+border-radius: 20px;
+width: 340px;
+height: 350px;
+}
+
+/* Contacts*/
+.contact1{
+  padding: 10px;
+}
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 15px;
+}
+
+
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  /* Navigation Bar */
+
+
+  .navbar-brand, .nav > li > a {
+    padding: 30px 15px ;
+  }
+
+  .navbar-toggler-icon{
+    font-size: 2.8em;
+}
+.navbar-toggler{
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+
+
+
+  .navbar-nav>li>a {
+   color : #fff;
+  }
+
+  .navbar-brand {
+    font-family: "Montserrat-Light";
+    font-size: 5.5rem;
+    font-weight: bold;
+
+  }
+
+  .nav-link {
+    font-size: 3.5rem;
+    line-height: 2.5;
+    font-family: "Montserrat-Light";
+  }
+
+  /* Headings */
+
+  .big-heading {
+    font-family: 'Damion', cursive;
+    font-size: 4.7rem;
+    line-height: 2;
+  }
+
+  .section-heading {
+    font-size: 6rem;
+    line-height: 2;
+  }
+
+  p {
+      font-family: 'Damion', cursive;
+      color: #fff;
+      line-height: 200%;
+      font-size: 3.6rem;
+      word-spacing: 5px;
+      padding-top:20%;
+      }
+
+h2,h3,h4,h6
+{
+  font-size:4rem;
+}
+
+
+/*pics*/
+
+  .girlwithheart  {
+    width: 65%;
+    border-radius: 100%;
+    margin:10px;
+      height:100%;
+  }
+
+
+  .mypic
+  {
+    width: 60%;
+    height:80%;
+    border-radius: 80%;
+    margin: 20px;
+  }
+  .mypic1
+  {
+    width: 70%;
+    height:90%;
+    border-radius: 80%;
+    margin: 20px;
+  }
+  .mypic2
+  {
+    width: 70%;
+    height:90%;
+    border-radius: 80%;
+    margin: 20px;
+  }
+  .mypic3
+  {
+    width: 70%;
+    height:90%;
+    border-radius: 80%;
+    margin: 20px;
+  }
+  .mypic4
+  {
+    width: 80%;
+    height:200%;
+    border-radius: 80%;
+    margin: 20px;
+  }
+
+  .mypic5
+  {
+    width: 100%;
+    height:200%;
+    border-radius: 80%;
+    margin: 20px;
+  }
+
+
+
+.girltired
+{
+  width: 90%;
+  height: 90%;
+  border-radius:10%;
+  margin: 50px;
+}
+
+.earphones
+{
+  width: 80%;
+  height:40%;
+}
+
+.testimonial-image {
+border-radius: 15px;
+width: 580px;
+height: 590px;
+}
+
+
+.fa-instagram{
+    font-size: 4.5em !important; /*size whatever you like*/
+}
+.fa-envelope{
+    font-size: 4.5em !important; /*size whatever you like*/
+}
+
+.social-icon
+{
+  margin: 10px 45px;
+  padding-bottom: 10px 30px;
+}
+
+.contact1
+{
+  padding-bottom: 150px;
+}
+
+
+}
